@@ -18,10 +18,10 @@ trackers = {
     'csrt' : cv2.legacy.TrackerCSRT_create,  # hight accuracy ,slow
     'mosse' : cv2.legacy.TrackerMOSSE_create,  # fast, low accuracy
     'kcf' : cv2.legacy.TrackerKCF_create,   # moderate accuracy and speed
-    'medianflow' : cv2.legacy.TrackerMedianFlow_create,
-    'mil' : cv2.legacy.TrackerMIL_create,
-    'tld' : cv2.legacy.TrackerTLD_create,
-    'boosting' : cv2.legacy.TrackerBoosting_create,
+    'medianflow' : cv2.legacy.TrackerMedianFlow_create, # good but slow
+    'mil' : cv2.legacy.TrackerMIL_create, # kinda bad
+    'tld' : cv2.legacy.TrackerTLD_create, # very bad
+    'boosting' : cv2.legacy.TrackerBoosting_create, # very bad
     'multi' : cv2.legacy.MultiTracker_create
 }
 
