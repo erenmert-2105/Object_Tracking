@@ -5,17 +5,6 @@ import cv2
 import numpy as np
 import time
 
-"""
-        legacy_MultiTracker
-        legacy_Tracker
-        legacy_TrackerBoosting
-        legacy_TrackerCSRT
-        legacy_TrackerKCF
-        legacy_TrackerMIL
-        legacy_TrackerMOSSE
-        legacy_TrackerMedianFlow
-        legacy_TrackerTLD
-"""
 # you might need to delete legacy part like cv2.TrackerCSRT_create
 trackers = {
     'csrt' : cv2.legacy.TrackerCSRT_create,  # hight accuracy ,slow
