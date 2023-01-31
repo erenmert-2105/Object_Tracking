@@ -1,3 +1,6 @@
+# at this code first code detects the blue object which i didnt show, then tracks it
+
+
 import cv2
 import numpy as np
 import time
